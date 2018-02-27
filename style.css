@@ -1,0 +1,59 @@
+body {
+
+
+margin: auto;
+padding: 0;
+max-width: 800px;
+font-family: 'Poppins', sans-serif;
+font-size: 1.3em;
+background-color: #cdffc9
+}
+
+
+h1 {font-family: 'Rokkitt', sans-serif;
+	font-size: 2.0em}
+
+figcaption {font-size: .7em;
+
+}
+
+h3 {font-family: 'Archivo Black', sans-serif;
+	font-size: 1.0}
+
+
+
+p {max-width: 100px
+
+	margin-left: 30px;
+	margin-right: 30px;
+
+	padding: 0.1%
+
+	}
+
+img {max-width: 100%;
+
+		}
+
+blockquote {font-family: 'Archivo Black', sans-serif;}
+
+
+
+.bigimage {max-width: 100%;
+			height: auto;
+			margin: auto}
+
+@media screen and (min-width: 500px) {
+
+	body { background-color: #ffcccc;
+
+
+
+
+
+}
+
+@media screen and (max-width: 800px) {
+		body { background-color: #E66F52;
+
+}

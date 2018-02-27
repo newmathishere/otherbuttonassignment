@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>button excerise
+	</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script
+  src="http://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+	<header>
+		<h1>They told us to make a button</h1>
+		<button id="mybutton"> This is a button</button>
+		<button id="secondbutton"> This is another button</button>
+    <button id="mythirdbutton"> This is yet another button</button>
+		<h2>and have it do something fun</h2>
+		<p>by: author</p>
+
+	</header>
+
+	<figure class="graphic">
+
+		<img src="images/images-1.jpg" align="left" width=27% class="bigimage">
+    <img src="images/images-2.jpg" align="center" width=30% class="bigimage">
+    <img src="images/images-3.jpg" align="right" width=25% class="bigimage">
+
+
+	<figcaption>the only buttons you'll ever need</figcaption>
+	</figure>
+
+	<section>
+
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ultrices, orci vel porttitor vestibulum, est turpis malesuada lorem, vel lobortis ligula massa non neque. Vivamus malesuada mi sem, sed fermentum augue gravida viverra. Nullam sed velit a purus interdum pellentesque ut sit amet nibh. Donec sed pretium nibh. Aliquam orci odio, iaculis vestibulum orci sit amet, suscipit iaculis ligula. Phasellus non augue imperdiet mauris iaculis venenatis vel non libero. Sed malesuada turpis sed diam vestibulum molestie. Proin ut felis lacus.</p>
+
+<p>Sed ligula diam, lacinia ac vulputate quis, sollicitudin a nibh. Suspendisse vel mi vitae dui eleifend efficitur. Quisque urna justo, gravida non vehicula ac, gravida sed mauris. Sed sed ullamcorper augue, in malesuada odio. Sed egestas felis non sodales gravida. Aenean eu nunc vel risus feugiat laoreet faucibus et ipsum. Etiam sollicitudin lacus molestie neque dignissim fringilla. Donec quis enim a enim hendrerit mattis non eget leo. Phasellus pellentesque nulla eget molestie posuere. Duis eget lectus mauris. In congue, orci id pretium feugiat, tellus purus vulputate turpis, eu ullamcorper ante augue quis quam. Duis mattis libero quis leo egestas, et fringilla neque fermentum. Sed non nisl sit amet nisi tempor volutpat et vitae sem. Vestibulum ut lorem porttitor, placerat nulla sed, malesuada nisi. Curabitur metus lacus, vestibulum in tincidunt quis, accumsan quis felis.</p>
+
+<blockquote><h3>Aenean eu nunc vel risus feugiat laoreet faucibus et ipsum. Etiam sollicitudin lacus molestie neque dignissim fringilla. Donec quis enim a enim hendrerit mattis non eget leo. Phasellus pellentesque nulla eget molestie posuere. Duis eget lectus mauris.</h3></blockquote>
+
+<p>Suspendisse potenti. Curabitur tempus, lacus vel sagittis placerat, urna justo molestie enim, vitae lacinia sem urna id est. Integer efficitur libero nibh, at ultrices ligula gravida id. Nam consequat cursus neque non facilisis. Cras ac fermentum metus. Vestibulum sed tempus nulla. Vestibulum ligula magna, pulvinar vitae lobortis ac, imperdiet eu ipsum. Integer accumsan sapien a nunc tempus lobortis. Duis volutpat, neque et tempus porta, augue neque dapibus odio, fermentum pellentesque neque felis eu justo. Sed rutrum dapibus molestie. Nunc molestie, purus quis tempus pulvinar, eros lorem maximus elit, et posuere eros nibh a dui. Vivamus hendrerit augue non mi dictum fringilla eget efficitur nulla. Mauris sollicitudin elit in massa maximus, at consequat massa finibus. Ut eget nisl at urna volutpat viverra. Donec auctor metus ut sem gravida luctus. Vestibulum porta pretium vehicula.</p>
+
+
+
+
+	</section>
+
+<figure>
+
+</figure>
+
+<p>
+	Etiam massa elit, aliquam eu pretium ut, varius vel diam. Mauris eget erat risus. Ut ante mauris, sodales id arcu vitae, scelerisque tristique urna. Duis vestibulum, justo ac facilisis euismod, arcu velit egestas ex, non condimentum odio eros nec lacus. Quisque turpis tortor, tincidunt at elementum et, pulvinar ultricies odio. Nulla facilisi. Aenean sollicitudin arcu vel consequat pharetra. Vestibulum nec lorem nec ante tempus pretium.
+
+
+</p>
+
+<p>Pellentesque mollis dui ut ex rutrum mollis. Nunc luctus, neque at cursus dapibus, erat lectus tempus odio, vel dictum nisi lectus eget felis. Sed eleifend nec arcu eget maximus. Cras luctus rhoncus rutrum. Integer varius elit et dignissim lacinia. Integer fermentum enim sit amet massa posuere bibendum. Vestibulum a sapien aliquet, laoreet lacus vitae, sagittis velit. Aliquam placerat viverra massa. Phasellus in volutpat lorem, sit amet commodo diam. Nunc et dolor convallis diam dapibus vestibulum sed eget sapien. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec sit amet turpis vitae ante pulvinar porttitor. Phasellus vel diam semper, porta tortor a, dictum ex.</p>
+
+<figure>
+
+
+
+</figure>
+
+<script>
+
+$(document).ready(function(){
+
+
+
+$("#mybutton").click(function(){
+  $("img").hide();
+
+});
+
+$("#secondbutton").click(function(){
+  $("img").show();
+
+
+});
+
+$("#mythirdbutton").click(function(){
+  $("p").fadeOut(6000);
+  $("p").fadeIn(15000);
+
+
+
+});
+
+
+
+
+
+
+
+
+});
+
+
+
+
+</script>
+
+</body>
+
+</html>
